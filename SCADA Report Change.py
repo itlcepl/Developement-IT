@@ -106,7 +106,7 @@ def analysis_seperate_sheet(file_path, comapre_date, csv_data):
     sheet3 = xls.sheet_by_index(2)
     sheet4 = xls.sheet_by_index(3)
     change_actual_data(sheet1, comapre_date, csv_data, map_sheet1)
-    #change_actual_data(sheet2, comapre_date, csv_data, map_sheet2)
+    change_actual_data(sheet2, comapre_date, csv_data, map_sheet2)
     # change_actual_data(sheet3, comapre_date, csv_data, map_sheet3)
     # change_actual_data(sheet4, comapre_date, csv_data, map_sheet4)
 
